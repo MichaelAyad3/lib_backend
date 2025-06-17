@@ -8,9 +8,6 @@ __pycache__/
 venv/
 lib_backend/venv/
 
-# SQLite DBs
-*.db
-
 # Pytest cache
 .pytest_cache/
 lib_backend/.pytest_cache/
