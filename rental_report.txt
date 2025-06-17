@@ -1,0 +1,10 @@
+Rental Report - Currently Rented Books
+============================================================
+'Active Rental Book' rented by testuser for 3 day(s).
+
+Summary
+============================================================
+Books Currently Rented: 1
+Returned Rentals: 0
+Total Rentals: 1
+Average Rental Duration: 0 day(s)

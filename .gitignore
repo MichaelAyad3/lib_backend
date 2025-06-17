@@ -1,0 +1,22 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+*.sqlite3
+
+# Virtual environments
+venv/
+lib_backend/venv/
+
+# SQLite DBs
+*.db
+
+# Pytest cache
+.pytest_cache/
+lib_backend/.pytest_cache/
+
+# MacOS metadata
+.DS_Store
+
+# Logs and artifacts
+*.log
