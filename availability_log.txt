@@ -558,3 +558,35 @@
     Availability changed: True ➜ False
     Changed by: POST /rentals
 ------------------------------------------------------------
+[2025-06-18T00:40:46.190127] Book ID: 1, Title: 'Test Book'
+    Availability changed: True ➜ False
+    Changed by: PATCH /books/1/availability
+------------------------------------------------------------
+[2025-06-18T00:40:46.199008] Book ID: 1, Title: 'Test Book'
+    Availability changed: False ➜ False
+    Changed by: PATCH /books/1/availability
+------------------------------------------------------------
+[2025-06-18T00:40:46.201443] Book ID: 1, Title: 'Test Book'
+    Availability changed: False ➜ True
+    Changed by: PATCH /books/1/availability
+------------------------------------------------------------
+[2025-06-18T00:40:46.221069] Book ID: 2, Title: 'Available Book'
+    Availability changed: True ➜ False
+    Changed by: POST /rentals
+------------------------------------------------------------
+[2025-06-18T00:40:46.236194] Book ID: 5, Title: 'To Be Returned'
+    Availability changed: False ➜ True
+    Changed by: PATCH /rentals/2/return
+------------------------------------------------------------
+[2025-06-18T00:40:46.250476] Book ID: 7, Title: 'Book to Rent Again'
+    Availability changed: True ➜ False
+    Changed by: POST /rentals
+------------------------------------------------------------
+[2025-06-18T00:40:46.254043] Book ID: 7, Title: 'Book to Rent Again'
+    Availability changed: False ➜ True
+    Changed by: PATCH /rentals/3/return
+------------------------------------------------------------
+[2025-06-18T00:40:46.256482] Book ID: 7, Title: 'Book to Rent Again'
+    Availability changed: True ➜ False
+    Changed by: POST /rentals
+------------------------------------------------------------

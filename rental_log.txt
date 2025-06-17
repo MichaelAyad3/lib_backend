@@ -96,3 +96,8 @@
 "Book to Rent Again (bookID: 7) returned by testuser (userID: 1) on 2025-06-17 23:45."
 "Book to Rent Again (bookID: 7) rented by testuser (userID: 1) on 2025-06-17 23:45."
 "Angels & Demons  (bookID: 960) rented by alice (userID: 1) on 2025-06-17 23:46."
+"Available Book (bookID: 2) rented by testuser (userID: 1) on 2025-06-18 00:40."
+"To Be Returned (bookID: 5) returned by testuser (userID: 1) on 2025-06-18 00:40."
+"Book to Rent Again (bookID: 7) rented by testuser (userID: 1) on 2025-06-18 00:40."
+"Book to Rent Again (bookID: 7) returned by testuser (userID: 1) on 2025-06-18 00:40."
+"Book to Rent Again (bookID: 7) rented by testuser (userID: 1) on 2025-06-18 00:40."
