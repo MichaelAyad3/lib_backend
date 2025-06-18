@@ -160,7 +160,7 @@ Docs: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
 
 ---
 
-## ✅ Running Tests
+## Running Tests
 
 ```bash
 pytest
@@ -176,7 +176,7 @@ Tests cover core functionality including some edge cases. In order to abide by s
 
 ---
 
-## 📁 Directory Overview
+## Directory Overview
 
 ```
 lib_backend/
