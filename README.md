@@ -168,11 +168,11 @@ pytest
 
 Tests cover core functionality including some edge cases. In order to abide by some of the spec and to simulate some features that were beyond the scope of this task, the following text files were created:
 
-*notifications.txt*: Stores simple messages whenever a book on a user's wishlist becomes available. Created to accommodate for the automatic email functionality mentioned in the spec.
+**notifications.txt**: Stores simple messages whenever a book on a user's wishlist becomes available. Created to accommodate for the automatic email functionality mentioned in the spec.
 
-*rental_log.txt*: A text log file automatically updated whenever a user borrows or returns a book. Information includes book title, book ID, username, userID, and datetime of event.
+**rental_log.txt**: A text log file automatically updated whenever a user borrows or returns a book. Information includes book title, book ID, username, userID, and datetime of event.
 
-*availability_log.txt*: Stores every event of the availability status of a book changing. Includes the endpoint that caused this change.
+**availability_log.txt**: Stores every event of the availability status of a book changing. Includes the endpoint that caused this change.
 
 ---
 
