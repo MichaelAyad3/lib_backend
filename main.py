@@ -207,7 +207,7 @@ def create_rental(rental: RentalBase, db: Session = Depends(get_db)):
 
     return rental_entry
 
-# Manually update the availability of a book
+# Return a borrowed book
 @app.patch("/rentals/{rental_id}/return")
 def return_book(rental_id: int, db: Session = Depends(get_db)):
     rental = db.query(Rental).filter_by(id=rental_id).first()
